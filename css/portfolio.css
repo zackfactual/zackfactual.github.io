@@ -14,11 +14,15 @@ body {
 
 .card {
 	background-color: #2A2B2D;
-	margin-top: 15px;
+	margin: 15px;
 }
 
 .img-circle {
 	border-radius: 50%;
+}
+
+.skillink {
+	display: inline-block;
 }
 
 .timeline {
