@@ -239,12 +239,12 @@ body {
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 767px) {
   .timeline > li:nth-child(even) {
-    margin-bottom: 85px;
+    margin-bottom: 97px;
     min-height: 0px;
     right: 0px;
   }
   .timeline > li:nth-child(odd) {
-    margin-bottom: 85px;
+    margin-bottom: 97px;
     min-height: 0px;
     left: 0px;
   }
