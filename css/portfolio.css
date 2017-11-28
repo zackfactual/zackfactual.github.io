@@ -5,18 +5,16 @@ body {
 	background-color: #000;
 }
 
-#portfolio,
-#experience,
 #skills,
+#experience,
+#portfolio,
 #contact {
 	padding-top: 70px;
 }
 
 .card {
   background-color: #2A2B2D;
-  max-height: 200px;
-  max-width: 200px;
-	margin: 15px;
+  margin: 15px;
 }
 
 .img-circle {
