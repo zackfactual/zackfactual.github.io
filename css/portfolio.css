@@ -13,7 +13,9 @@ body {
 }
 
 .card {
-	background-color: #2A2B2D;
+  background-color: #2A2B2D;
+  max-height: 200px;
+  max-width: 200px;
 	margin: 15px;
 }
 
