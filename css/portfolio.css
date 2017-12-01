@@ -1,28 +1,19 @@
 body {
-	padding-top: 65px;
-	font-family: Monaco, sans-serif;
-	color: #00FF00;
-	background-color: #000;
+  background-image: url("heraklion.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #fff;
 }
 
-#skills,
-#experience,
-#portfolio,
-#contact {
-	padding-top: 70px;
-}
-
-.card {
-  background-color: #2A2B2D;
-  margin: 15px;
+/* EXPERIENCE CSS */
+#experience {
+  padding-top: 70px;
 }
 
 .img-circle {
 	border-radius: 50%;
-}
-
-.skillink {
-	display: inline-block;
 }
 
 .timeline {
@@ -83,10 +74,10 @@ body {
     z-index: 100;
     position: absolute;
     left: 50%;
-    border: 7px solid #00FF00;
+    border: 7px solid #000;
     border-radius: 100%;
-    background-color: #00FF00;
-    box-shadow: 0 0 5px #4582ec;
+    background-color: #000;
+    box-shadow: 0 0 75px #4582ec;
     width: 200px;
     height: 200px;
     margin-left: -100px;
@@ -126,7 +117,6 @@ body {
   margin-top:22px;
     margin-bottom: 4px;
     padding:0;
-    color: #fff;
 }
 
 .timeline .timeline-heading h4.subheading {
@@ -134,7 +124,7 @@ body {
   padding:0;
     text-transform: none;
     font-size:18px;
-    color:#00FF00;
+    color:#fff;
 }
 
 .timeline .timeline-body>p,
@@ -142,6 +132,7 @@ body {
     margin-bottom: 0;
     color: #C5C4BF;
 }
+
 /*Style for even div.line*/
 .timeline>li:nth-child(odd) .line:before {
     content: "";
@@ -151,12 +142,13 @@ body {
     left: 690px;
     width: 4px;
     height:340px;
-    background-color: #00FF00;
+    background-color: #000;
     -ms-transform: rotate(-44deg); /* IE 9 */
     -webkit-transform: rotate(-44deg); /* Safari */
     transform: rotate(-44deg);
     box-shadow: 0 0 5px #4582ec;
 }
+
 /*Style for odd div.line*/
 .timeline>li:nth-child(even) .line:before  {
     content: "";
@@ -166,7 +158,7 @@ body {
     left: 450px;
     width: 4px;
     height:340px;
-    background-color: #00FF00;
+    background-color: #000;
     -ms-transform: rotate(44deg); /* IE 9 */
     -webkit-transform: rotate(44deg); /* Safari */
     transform: rotate(44deg);
@@ -280,6 +272,35 @@ body {
   }
 }
 
-img {
-	max-width:100%;
+/* PORTFOLIO CSS */
+.portfolio-header {
+  margin-top: 50px;
+}
+
+.carousel-item {
+  justify-content: center;
+}
+
+.carousel-item img {
+  margin: 50px 5px 50px 5px;
+  border: 5px solid	#000;
+  box-shadow: 0 0 75px #4582ec;
+}
+
+/* SKILLS CSS */
+.skillink {
+	display: inline-block;
+}
+
+/* CONTACT CSS*/
+.contact-ul {
+  justify-content: center;
+}
+
+.contact-li {
+  margin: 0 20px;
+}
+
+#myModalLabel {
+  color: #000;
 }
