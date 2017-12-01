@@ -282,6 +282,8 @@ body {
 }
 
 .carousel-item img {
+  max-height: 300px;
+  max-width: 300px;
   margin: 50px 5px 50px 5px;
   border: 5px solid	#000;
   box-shadow: 0 0 75px #4582ec;
