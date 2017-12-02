@@ -1,16 +1,25 @@
+/* GENERAL */
+
 body {
   background-image: url("heraklion.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   color: #fff;
 }
 
-/* EXPERIENCE CSS */
-#experience {
-  padding-top: 70px;
+#experience,
+#portfolio {
+  padding-top: 60px;
 }
+
+#skills,
+#contact {
+  padding-top: 10px;
+}
+
+/* EXPERIENCES */
 
 .img-circle {
 	border-radius: 50%;
@@ -81,6 +90,7 @@ body {
     width: 200px;
     height: 200px;
     margin-left: -100px;
+    cursor: pointer;
 }
 
 .timeline>li .timeline-image h4 {
@@ -117,20 +127,43 @@ body {
   margin-top:22px;
     margin-bottom: 4px;
     padding:0;
+    text-shadow: 0 0 10px #fbff00;
 }
 
 .timeline .timeline-heading h4.subheading {
   margin:0;
   padding:0;
-    text-transform: none;
-    font-size:18px;
-    color:#fff;
+  text-transform: none;
+  font-size:18px;
+  color:#fff;
+  transition: color 3s;
+  text-shadow: none;
+}
+
+.timeline .timeline-heading h4.subheading:hover {
+  color:#000;
 }
 
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
     color: #C5C4BF;
+}
+
+.timeline>li .timeline-image:hover{
+  -webkit-animation:spin 2s linear infinite;
+  -moz-animation:spin 2s linear infinite;
+  animation:spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin{
+  100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes spin{
+  100% { -moz-transform: rotate(360deg); }
+}
+@keyframes spin{
+  100% { transform: rotate(360deg); }
 }
 
 /*Style for even div.line*/
@@ -164,6 +197,106 @@ body {
     transform: rotate(44deg);
     box-shadow: 0 0 5px #4582ec;
 }
+
+/* PORTFOLIO */
+.carousel-item {
+  justify-content: center;
+}
+
+.carousel-img-container {
+  position: relative;
+}
+
+.carousel-img {
+  opacity: 1;
+  max-height: 300px;
+  max-width: 300px;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border: 5px solid	#000;
+  border-radius: 10px;
+  margin: 50px 5px 50px 5px;
+  box-shadow: 0 0 75px #4582ec;
+  cursor: pointer;
+  width: 100%;
+}
+
+.carousel-caption {
+  text-align: center;
+  vertical-align: middle;
+  transition: .5s ease;
+  opacity: 0;
+}
+
+.project-title {
+  font-variant: small-caps;
+  font-size: 2em;
+  text-shadow: 0 0 10px #fbff00;
+}
+
+.carousel-img-container:hover .carousel-img {
+  opacity: 0.3;
+}
+
+.carousel-img-container:hover .carousel-caption {
+  opacity: 1;
+}
+
+/* SKILLS */
+.skillink {
+	display: inline-block;
+}
+
+/* CONTACT */
+.contact-ul {
+  justify-content: center;
+}
+
+.contact-li {
+  margin: 0 20px;
+}
+
+/* TOOLTIPS */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* MEDIA BREAKS */
 /* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
   .timeline > li:nth-child(even) {
@@ -198,6 +331,7 @@ body {
     display: none;
   }
 }
+
 /* Small Devices, Tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   .timeline > li:nth-child(even) {
@@ -270,39 +404,4 @@ body {
   .timeline > li .line {
     display: none;
   }
-}
-
-/* PORTFOLIO CSS */
-.portfolio-header {
-  margin-top: 50px;
-}
-
-.carousel-item {
-  justify-content: center;
-}
-
-.carousel-item img {
-  max-height: 300px;
-  max-width: 300px;
-  margin: 50px 5px 50px 5px;
-  border: 5px solid	#000;
-  box-shadow: 0 0 75px #4582ec;
-}
-
-/* SKILLS CSS */
-.skillink {
-	display: inline-block;
-}
-
-/* CONTACT CSS*/
-.contact-ul {
-  justify-content: center;
-}
-
-.contact-li {
-  margin: 0 20px;
-}
-
-#myModalLabel {
-  color: #000;
 }
