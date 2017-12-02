@@ -5,7 +5,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #fff;
 }
 
@@ -127,7 +127,8 @@ body {
   margin-top:22px;
     margin-bottom: 4px;
     padding:0;
-    text-shadow: 0 0 10px #fbff00;
+    text-shadow: 0 0 10px #000;
+    font-variant: small-caps;
 }
 
 .timeline .timeline-heading h4.subheading {
@@ -138,6 +139,7 @@ body {
   color:#fff;
   transition: color 3s;
   text-shadow: none;
+  text-shadow: 0 0 5px #000;
 }
 
 .timeline .timeline-heading h4.subheading:hover {
@@ -234,6 +236,7 @@ body {
 .project-title {
   font-variant: small-caps;
   font-size: 2em;
+  font-weight: bold;
   text-shadow: 0 0 10px #fbff00;
 }
 
