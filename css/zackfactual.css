@@ -137,13 +137,8 @@ body {
   text-transform: none;
   font-size:18px;
   color:#fff;
-  transition: color 3s;
   text-shadow: none;
   text-shadow: 0 0 5px #000;
-}
-
-.timeline .timeline-heading h4.subheading:hover {
-  color:#000;
 }
 
 .timeline .timeline-body>p,
