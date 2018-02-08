@@ -23,9 +23,16 @@ body {
 
 .img-circle {
 	border-radius: 50%;
+    height: 100%; 
+    width: 100%; 
+    objection-fit: contain;
 }
 
 .img-circle:focus{
+    outline: 0;
+}
+
+.img-circle:active{
     outline: 0;
 }
 
