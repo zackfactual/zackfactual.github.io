@@ -6,9 +6,11 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  color: #fff;
 }
 
+.text-center{
+    color: #FFFFFF;
+}
 #experience,
 #portfolio {
   padding-top: 60px;
@@ -23,8 +25,6 @@ body {
 
 .img-circle {
 	border-radius: 50%;
-    height: 100%; 
-    width: 100%;
 }
 
 .img-circle:focus{
