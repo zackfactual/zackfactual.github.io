@@ -8,7 +8,7 @@ $(document).ready(function() {
     $(".nav-link").click(function() {
         $(".navbar-toggler").click();
     });
-
+    
     // close navbar when user clicks away from navbar
     $(document).click(function(e) {
         if (!$(e.target).is("a")) {

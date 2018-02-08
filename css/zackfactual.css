@@ -25,6 +25,10 @@ body {
 	border-radius: 50%;
 }
 
+.img-circle:focus{
+    outline: 0;
+}
+
 .timeline {
     position: relative;
     padding:4px 0 0 0;
@@ -139,10 +143,6 @@ body {
   color:#fff;
   text-shadow: none;
   text-shadow: 0 0 5px #000;
-}
-
-.timeline .timeline-heading h4.subheading:hover {
-  color: #000;
 }
 
 .timeline .timeline-body>p,
@@ -265,41 +265,35 @@ body {
     font-size: small;
 }
 
-/* TOOLTIPS */
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
+/* MODALS */
+.modal{
+    color: #000;
+    font-weight: bold;
 }
 
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 150%;
-  left: 50%;
-  margin-left: -60px;
+.modal-body{
+    background-size: cover;
+    background-position: center;
 }
 
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: black transparent transparent transparent;
+#theTechAcademyModal .modal-body{
+    background-image: url(../img/techacademyTransparent.jpg);
 }
 
-.tooltip:hover .tooltiptext {
-  visibility: visible;
+#wilridgeModal .modal-body{
+    background-image: url(../img/wilridgeTransparent.jpg);
+}
+
+#schillingModal .modal-body{
+    background-image: url(../img/schillingTransparent.jpg);
+}
+
+#consultantModal .modal-body{
+    background-image: url(../img/consultantTransparent.jpg);
+}
+
+#shawnModal .modal-body{
+    background-image: url(../img/shawnTransparent.jpg);
 }
 
 /* MEDIA BREAKS */
