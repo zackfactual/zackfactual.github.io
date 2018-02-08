@@ -6,11 +6,9 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #FFFFFF;
 }
 
-.text-center{
-    color: #FFFFFF;
-}
 #experience,
 #portfolio {
   padding-top: 60px;
@@ -25,10 +23,13 @@ body {
 
 .img-circle {
 	border-radius: 50%;
+    object-fit: contain; 
+    height: 100%; 
+    width: 100%;
 }
 
-.modalButton:focus,
-.modalButton:active{
+.img-circle:focus,
+.img-circle:active{
     outline: 0;
 }
 
