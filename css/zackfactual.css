@@ -28,6 +28,9 @@ body {
     width: 100%;
 }
 
+.img-circle:hover {
+    cursor:pointer;
+}
 .img-circle:focus,
 .img-circle:active{
     outline: 0;
