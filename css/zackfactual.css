@@ -24,8 +24,7 @@ body {
 .img-circle {
 	border-radius: 50%;
     height: 100%; 
-    width: 100%; 
-    objection-fit: contain;
+    width: 100%;
 }
 
 .img-circle:focus{
