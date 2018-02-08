@@ -1,27 +1,31 @@
 $(document).ready(function() { 
-		
-    /* close navbar when clicks navbar link */
-    $( ".nav-link" ).click(function() {
-        $( ".navbar-toggler" ).click();
+	
+    // auto-update copyright
+    var year = (new Date).getFullYear();
+    $("#copy").append("&copy; " + year + " - Zachary Velcoff");
+    
+    // close navbar when clicks navbar link
+    $(".nav-link").click(function() {
+        $(".navbar-toggler").click();
     });
 
-    /* close navbar when user clicks away from navbar */
+    // close navbar when user clicks away from navbar
     $(document).click(function(e) {
-        if (!$(e.target).is('a')) {
-            $('.collapse').collapse('hide');	    
+        if (!$(e.target).is("a")) {
+            $(".collapse").collapse("hide");	    
         }
     });
 
-    /* set carousel to rotate every 3 seconds */
-    $('.carousel').carousel({
+    // set carousel to rotate every 3 seconds
+    $(".carousel").carousel({
         interval: 3000
     });
 
-    /* set carousel to cease rotating on hover, resume rotating when off hover */
-    $('carousel').hover(function() {
-        $(this).carousel('pause');
+    // set carousel to cease rotating on hover, resume rotating when off hover
+    $("carousel").hover(function() {
+        $(this).carousel("pause");
     }, function() {
-        $(this).carousel('cycle');
+        $(this).carousel("cycle");
     });
 		
 });

@@ -260,6 +260,10 @@ body {
 .contact-li {
   margin: 0 20px;
 }
+/* FOOTER */
+#copy{
+    font-size: small;
+}
 
 /* TOOLTIPS */
 .tooltip {
