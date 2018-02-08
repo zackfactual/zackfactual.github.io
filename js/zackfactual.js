@@ -2,7 +2,7 @@ $(document).ready(function() {
 	
     // auto-update copyright
     var year = (new Date).getFullYear();
-    $("#copy").append("&copy; " + year + " - Zachary Velcoff");
+    $("#copy").append("&copy; " + year + " — Zachary Velcoff");
     
     // close navbar when clicks navbar link
     $(".nav-link").click(function() {
