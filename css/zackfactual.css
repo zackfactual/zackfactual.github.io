@@ -27,11 +27,8 @@ body {
 	border-radius: 50%;
 }
 
-.img-circle:focus{
-    outline: 0;
-}
-
-.img-circle:active{
+.modalButton:focus,
+.modalButton:active{
     outline: 0;
 }
 
@@ -272,12 +269,12 @@ body {
 }
 
 /* MODALS */
-.modal{
+.experienceModal{
     color: #000;
     font-weight: bold;
 }
 
-.modal-body{
+.experienceModal .modal-body{
     background-size: cover;
     background-position: center;
 }
