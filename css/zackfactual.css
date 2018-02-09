@@ -136,15 +136,13 @@ body {
 
 .timeline .timeline-heading h4 {
     font-variant: small-caps;
+    font-weight: bold;
     margin-bottom: 4px;
     margin-top: 22px;
     padding: 0;
-    text-shadow: 0 0 10px #000;
 }
 
 .timeline .timeline-heading h4.subheading {
-    text-shadow: none;
-    text-shadow: 0 0 5px #000;
     text-transform: none;
     font-size: 18px;
     margin: 0;
@@ -244,7 +242,6 @@ body {
     font-size: 2em;
     font-variant: small-caps;
     font-weight: bold;
-    text-shadow: 0 0 10px #fbff00;
 }
 
 .carousel-img-container:hover .carousel-img {
@@ -257,18 +254,15 @@ body {
 
 /* SKILLS */
 
-.skill-link {
-    display: inline-block;
+#skill-icons {
+    font-size: 3em;
 }
 
 /* CONTACT */
 
-.contact-ul {
-    justify-content: center;
-}
-
-.contact-li {
-    margin: 0 20px;
+#contact a {
+    font-size: 3em;
+    margin: 0 5px;
 }
 
 /* FOOTER */
