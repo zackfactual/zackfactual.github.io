@@ -5,6 +5,11 @@ $(document).ready(function() {
         $(".collapse").collapse("hide");
     });
 
+    // close navbar on mobile user touchend    
+    $(document).on("touchend",function(){
+        $(".collapse").collapse("hide");
+    });
+    
     // set carousel to rotate every 3 seconds
     $(".carousel").carousel({
         interval: 3000
