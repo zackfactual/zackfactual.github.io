@@ -1,12 +1,7 @@
 $(document).ready(function() { 
 	    
-    // close navbar on user click    
-    $(document).on("click",function(){
-        $(".collapse").collapse("hide");
-    });
-
-    // close navbar on mobile user touchend    
-    $(document).on("touchend",function(){
+    // close navbar on user click or touch 
+    $(document).on("click touchstart",function(){
         $(".collapse").collapse("hide");
     });
     
