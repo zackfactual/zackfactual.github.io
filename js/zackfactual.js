@@ -11,7 +11,7 @@ $(document).ready(function() {
     });
 
     // set carousel to cease rotating on hover, resume rotating when off hover
-    $("carousel").hover(function() {
+    $(".carousel").hover(function() {
         $(this).carousel("pause");
     }, function() {
         $(this).carousel("cycle");
@@ -20,5 +20,5 @@ $(document).ready(function() {
     // auto-update copyright
     var year = (new Date).getFullYear();
     $("#copy").append("&copy; " + year + " — Zachary Velcoff");
-    
 });
+

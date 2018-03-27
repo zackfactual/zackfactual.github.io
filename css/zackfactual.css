@@ -256,6 +256,18 @@ body {
 
 #skill-icons {
     font-size: 3em;
+    color: #1277D4;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#skill-icons a:hover {
+    cursor: pointer;
+    color: #094E89;
+    text-decoration: none;
+}
+
+.nonclickable:hover {
+    color: #094E89;
 }
 
 /* CONTACT */
