@@ -266,10 +266,6 @@ body {
     text-decoration: none;
 }
 
-.nonclickable:hover {
-    color: #094E89;
-}
-
 /* CONTACT */
 
 #contact a {
