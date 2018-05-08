@@ -1,7 +1,7 @@
 /* GENERAL */
 
 body {
-    background-image: url("../img/heraklion.jpg");
+    background-image: url(../img/heraklion.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -230,6 +230,10 @@ body {
     width: 100%;
 }
 
+.carousel-img:hover{
+    cursor: pointer;
+}
+
 .carousel-caption {
     bottom: initial;
     opacity: 0;
@@ -309,6 +313,10 @@ body {
 
 #shawnModal .modal-body{
     background-image: url(../img/shawnTransparent.jpg);
+}
+
+#bewanderModal .modal-body{
+    background-image: url(../img/bewander.jpg);
 }
 
 /* MEDIA BREAKS */
