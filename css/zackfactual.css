@@ -9,18 +9,26 @@ body {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.site-name {
-    margin: 0px 10px 8px 0px;
+#about {
+    padding-top: 100px;
 }
 
-#experience,
 #portfolio {
     padding-top: 60px;
 }
-
+    
+#experience,
 #skills,
 #contact {
     padding-top: 10px;
+}
+
+/* ABOUT */
+
+#about img {
+    border-radius: 10px;
+    border: 7px solid #000;
+    box-shadow: 0 0 75px #4582ec;
 }
 
 /* EXPERIENCES */
