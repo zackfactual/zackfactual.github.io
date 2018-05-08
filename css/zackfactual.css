@@ -9,6 +9,10 @@ body {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.site-name {
+    margin: 0px 10px 8px 0px;
+}
+
 #experience,
 #portfolio {
     padding-top: 60px;
