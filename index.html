@@ -48,7 +48,7 @@
     <!-- ABOUT -->
     <div class="container-fluid text-center" id="about">
         <h1>Zachary Velcoff</h1>
-        <img src="img/zacharyvelcoff.jpg">
+        <img src="img/zacharyvelcoff.jpg" data-toggle="modal" data-target="#aboutModal" alt="Zachary Velcoff">
     </div>
     <!-- /ABOUT -->
         
@@ -227,6 +227,31 @@
 	<!-- /FOOTER -->
 	
     <!-- MODALS -->
+    <div class="experienceModal modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="aboutModalLabel">About Me</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>My interest in software development began, like every good adventure, in a tavern. I was tending bar at a cider house when a young woman walked in and asked for a recommendation. I gave her a bad one, which turned out to be a good thing, since it got us talking. When I asked what she did for a living, she replied, "I work in dev/ops for an eCommerce company."</p>
+                    
+                    <p><span class="thought-bubble">Her job description is gibberish,</span> I thought, <span class="thought-bubble">she must be a genius.</span></p>
+                    
+                    <p>I did the thing that no good bartender should do: "Hey, you wanna grab coffee some time?"</p>
+                    
+                    <p>That woman is now my fiancée, and after a year of studying software development over her shoulder, I decided to give it a shot myself. I found it easier on the back—and better for the brain—than selling and making alcohol. Solving puzzles, learning constantly, creating unique applications and endlessly pursuing their perfection—this is the work I love.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        
     <div class="experienceModal modal fade" id="theTechAcademyModal" tabindex="-1" role="dialog" aria-labelledby="theTechAcademyModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">

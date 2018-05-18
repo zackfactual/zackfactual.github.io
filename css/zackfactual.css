@@ -31,6 +31,14 @@ body {
     margin: 35px 0px 0px 0px;
 }
 
+#about img:hover{
+    cursor: pointer;
+}
+
+.thought-bubble {
+    font-style: italic;
+}
+
 /* EXPERIENCES */
 
 .img-circle {
@@ -299,7 +307,6 @@ body {
 
 .experienceModal{
     color: #000;
-    font-weight: bold;
 }
 
 .experienceModal .modal-body{
@@ -307,24 +314,28 @@ body {
     background-size: cover;
 }
 
+#aboutModal .modal-body{
+    background-image: url(../img/zacharyvelcofftransparent.jpg)
+}
+
 #theTechAcademyModal .modal-body{
-    background-image: url(../img/techacademyTransparent.jpg);
+    background-image: url(../img/techacademytransparent.jpg);
 }
 
 #wilridgeModal .modal-body{
-    background-image: url(../img/wilridgeTransparent.jpg);
+    background-image: url(../img/wilridgetransparent.jpg);
 }
 
 #schillingModal .modal-body{
-    background-image: url(../img/schillingTransparent.jpg);
+    background-image: url(../img/schillingtransparent.jpg);
 }
 
 #consultantModal .modal-body{
-    background-image: url(../img/consultantTransparent.jpg);
+    background-image: url(../img/consultanttransparent.jpg);
 }
 
 #shawnModal .modal-body{
-    background-image: url(../img/shawnTransparent.jpg);
+    background-image: url(../img/shawntransparent.jpg);
 }
 
 #bewanderModal .modal-body{
