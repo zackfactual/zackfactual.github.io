@@ -182,7 +182,12 @@ body {
 }
 
 .timeline-image {
-    border-radius: 50%;
+    background: #000000;
+    border-radius: 100px;
+}
+
+.timeline-image div {
+    border-radius: 30px;
 }
 
 @-webkit-keyframes spin{
