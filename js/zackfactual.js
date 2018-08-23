@@ -1,5 +1,4 @@
 $(document).ready(function() { 
-	    
     // close navbar on user click or touch 
     $(document).on("click touchstart",function(){
         $(".collapse").collapse("hide");

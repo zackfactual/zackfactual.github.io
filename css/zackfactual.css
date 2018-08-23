@@ -342,6 +342,10 @@ body {
     background-image: url(../img/bewander.jpg);
 }
 
+#otDayOmCayModal .modal-body{
+    background-image: url(../img/otdayomcay.jpg);
+}
+
 /* MEDIA BREAKS */
 
 @media (min-width: 992px) and (max-width: 1199px) {
