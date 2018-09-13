@@ -21,15 +21,7 @@ $(document).ready(function() {
     $("#copy").append("&copy; " + year + " — Zachary Velcoff");
 });
 
-var isIE = /*@cc_on!@*/false || !!document.documentMode, // Internet Explorer 6-11
-    isEdge = !isIE && !!window.StyleMedia; // Edge 20+
 
-// Check if Internet Explorer 6-11 OR Edge 20+
-if(isIE || isEdge) {
-    console.log("edge or i.e.");
-    ieFix1 = document.getElementsByClassName('timeline-image');
-    ieFix1.style['border-radius: 0px;'];
-    ieFix2 = document.getElementsByClassName('img-circle');
-    ieFix2.style['border-radius: 0px;'];
-};
+
+
 
