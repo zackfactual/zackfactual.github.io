@@ -27,5 +27,5 @@ isEdge = !isIE && !!window.StyleMedia; // Edge 20+
 // Check if Internet Explorer 6-11 OR Edge 20+
 if(isIE || isEdge) {
     console.log("edge or i.e.");
-    document.getElementsByClassName('img-circle').style['border-radius: 0;'];
+    document.getElementsByClassName('timeline-image').style['border-radius: 0;'];
 };
