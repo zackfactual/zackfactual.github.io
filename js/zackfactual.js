@@ -26,8 +26,10 @@ $(document).ready(function() {
     // Check if Internet Explorer 6-11 OR Edge 20+
     if(isIE || isEdge) {
         console.log("edge or i.e.");
-        var stupidBrowser = document.getElementsByClassName('timeline-image');
-        stupidBrowser.style['border-radius: 0;'];
+        ieFix1 = document.getElementsByClassName('timeline-image');
+        ieFix1.style['border-radius: 0px;'];
+        ieFix2 = document.getElementsByClassName('img-circle');
+        ieFix2.style['border-radius: 0px;'];
     };
 });
 

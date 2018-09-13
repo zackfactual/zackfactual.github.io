@@ -43,8 +43,6 @@ body {
 
 .img-circle {
     border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     height: 100%; 
     object-fit: contain; 
     width: 100%;
