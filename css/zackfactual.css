@@ -480,22 +480,23 @@ body {
     }
 }
 
+/* switch from circles to squares for IE and Edge */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    /* IE10+ CSS */
+    /* IE10+ */
     .timeline-image {
         border-radius: 0px;
     }
  }
 
 @supports (-ms-accelerator:true) {
-    /* IE Edge 12+ CSS */ 
+    /* IE Edge 12+ */ 
     .timeline-image {
         border-radius: 0px;
     }
 }
 
 @supports (-ms-ime-align:auto) {
-    /* IE Edge 16+ CSS */ 
+    /* IE Edge 16+ */ 
     .timeline-image {
         border-radius: 0px;
     }
