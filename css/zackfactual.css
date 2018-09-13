@@ -48,27 +48,6 @@ body {
     width: 100%;
 }
 
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    /* IE10+ CSS */
-    .timeline-image {
-        border-radius: 0px;
-    }
- }
-
-@supports (-ms-accelerator:true) {
-    /* IE Edge 12+ CSS */ 
-    .timeline-image {
-        border-radius: 0px;
-    }
-}
-
-@supports (-ms-ime-align:auto) {
-    /* IE Edge 16+ CSS */ 
-    .timeline-image {
-        border-radius: 0px;
-    }
-}
-
 .img-circle:hover {
     cursor: pointer;
 }
@@ -499,5 +478,25 @@ body {
     .timeline>li .line {
         display: none;
     }
-    
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* IE10+ CSS */
+    .timeline-image {
+        border-radius: 0px;
+    }
+ }
+
+@supports (-ms-accelerator:true) {
+    /* IE Edge 12+ CSS */ 
+    .timeline-image {
+        border-radius: 0px;
+    }
+}
+
+@supports (-ms-ime-align:auto) {
+    /* IE Edge 16+ CSS */ 
+    .timeline-image {
+        border-radius: 0px;
+    }
 }
