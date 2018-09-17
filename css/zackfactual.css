@@ -347,11 +347,15 @@ body {
 }
 
 #bewanderModal .modal-body{
-    background-image: url(../img/bewander.jpg);
+    background-image: url(../img/bewandertransparent.png);
 }
 
 #otDayOmCayModal .modal-body{
-    background-image: url(../img/otdayomcay.png);
+    background-image: url(../img/otdayomcaytransparent.png);
+}
+
+#radishPointModal .modal-body {
+    background-image: url(../img/radishpointtransparent.png);
 }
 
 /* MEDIA BREAKS */
