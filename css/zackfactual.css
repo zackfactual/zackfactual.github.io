@@ -322,42 +322,6 @@ body {
     background-size: cover;
 }
 
-#aboutModal .modal-body{
-    background-image: url(../img/zacharyvelcofftransparent.jpg)
-}
-
-#techAcademyModal .modal-body{
-    background-image: url(../img/techacademytransparent.jpg);
-}
-
-#wilridgeModal .modal-body{
-    background-image: url(../img/wilridgetransparent.jpg);
-}
-
-#schillingModal .modal-body{
-    background-image: url(../img/schillingtransparent.jpg);
-}
-
-#consultantModal .modal-body{
-    background-image: url(../img/consultanttransparent.jpg);
-}
-
-#shawnModal .modal-body{
-    background-image: url(../img/shawntransparent.jpg);
-}
-
-#bewanderModal .modal-body{
-    background-image: url(../img/bewandertransparent.png);
-}
-
-#otDayOmCayModal .modal-body{
-    background-image: url(../img/otdayomcaytransparent.png);
-}
-
-#radishPointModal .modal-body {
-    background-image: url(../img/radishpointtransparent.png);
-}
-
 /* MEDIA BREAKS */
 
 @media (min-width: 992px) and (max-width: 1199px) {

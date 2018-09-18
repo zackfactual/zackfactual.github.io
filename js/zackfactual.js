@@ -23,6 +23,7 @@ $(document).ready(function() {
     // on aboutModal open
     $("#aboutModal").on("shown.bs.modal", function(e) {
         $("#aboutModalLabel").text("About Me");
+        $("#aboutModalBody").css("background-image", "url(./img/zacharyvelcofftransparent.jpg)");
         $("#aboutModalBody").html('<p>My interest in software development began, like every good adventure,'
             + 'in a tavern. I was tending bar at a cider house when a young woman walked in and asked for a recommendation.'
             + ' I gave her a bad one, which turned out to be a good thing, since it got us talking. '
@@ -38,6 +39,7 @@ $(document).ready(function() {
     // on techAcademyModal open
     $("#techAcademyModal").on("shown.bs.modal", function(e) {
         $("#techAcademyModalLabel").html("Academy Director,<br />The Tech Academy Seattle");
+        $("#techAcademyModalBody").css("background-image", "url(./img/techacademytransparent.jpg)");
         $("#techAcademyModalBody").html('<p>Provided students support and instruction in:</p><ul><li>'
             + 'Computer and software development fundamentals</li><li>Version Control with GitHub and Team Foundation Server</li>'
             + '<li>Small Basic</li><li>HTML and CSS</li><li>SQL and Relational Database Management</li><li>JavaScript with jQuery '
@@ -48,6 +50,7 @@ $(document).ready(function() {
     // on wilridgeModal open
     $("#wilridgeModal").on("shown.bs.modal", function(e) {
         $("#wilridgeModalLabel").html("Sales Associate,<br />Wilridge Winery &amp; Vineyard");
+        $("#wilridgeModalBody").css("background-image", "url(./img/wilridgetransparent.jpg)");
         $("#wilridgeModalBody").html('<ul><li>Sold organic and biodynamic wines directly to consumers on premise and at seasonal and '
             + 'year-round markets across the Greater Seattle Area</li><li>Worked 2017 harvest at biodynamic estate in Eastern Washington'
             + '</li></ul>'
@@ -57,6 +60,7 @@ $(document).ready(function() {
     // on schillingModal open
     $("#schillingModal").on("shown.bs.modal", function(e) {
         $("#schillingModalLabel").html("Production Manager,<br />Schilling Cider");
+        $("#schillingModalBody").css("background-image", "url(./img/schillingtransparent.jpg)");
         $("#schillingModalBody").html('<ul><li>Performed all aspects of cidermaking process from fermentation to filtration to packaging'
             + '</li><li>Conducted quality control tests on up to eight 6,000-gal. batches simultaneously, monitoring scent, flavor, °Bx,'
             + 'pH, CO2, TA, and free SO2 of fermenting and finished product</li><li>Wrote 70-pg. operations manual with pictures, diagrams,'
@@ -68,6 +72,7 @@ $(document).ready(function() {
     // on consultantModal open
     $("#consultantModal").on("shown.bs.modal", function(e) {
         $("#consultantModalLabel").html("Beverage Industry Consultant,<br />Self-Employed");
+        $("#consultantModalBody").css("background-image", "url(./img/consultanttransparent.jpg)");
         $("#consultantModalBody").html('<ul><li>Advised eCommerce client on market analysis, promotional strategies, and inventory '
             + 'management integration</li><li>Managed shipping logistics, customer communications, inventory and financial records for '
             + "client's investment in a négociant averaging €2.5M in annual production</li><li>Participated in 2015 harvest of Premier "
@@ -79,6 +84,7 @@ $(document).ready(function() {
     // on shawnModal open
     $("#shawnModal").on("shown.bs.modal", function(e) {
         $("#shawnModalLabel").html("Wine &amp; Spirits Buyer,<br />Shawn Fine Wine &amp; Spirits");
+        $("#shawnModalBody").css("background-image", "url(./img/shawntransparent.jpg)");
         $("#shawnModalBody").html('<ul><li>Provided consumers with descriptive recommendations and a comprehensive global selection of '
             + 'boutique and name brand products, distributing $100k monthly budget to serve the needs of an economically and culturally '
             + 'diverse clientele</li><li>Compiled and analyzed sales and inventory data to evaluate and improve practices of a small '
@@ -91,6 +97,7 @@ $(document).ready(function() {
     // on radishPointModal open
     $("#radishPointModal").on("shown.bs.modal", function(e) {
         $("#radishPointModalLabel").html('<a href="https://radishpoint.com/" target="_blank">Radish Point</a>');
+        $("#radishPointModalBody").css("background-image", "url(./img/radishpointtransparent.png)");
         $("#radishPointModalBody").html('<p>Wrote a cross-numeral system converter with the following features:</p><ul><li>Number '
             + 'conversion from numeral systems base 1 through 100</li><li>Simple cross-numeral system calculations</li><li>Results '
             + 'precise up to 324 fractional digits</li><li>Character key provided with corresponding decimal values</li><li>Mobile '
@@ -101,6 +108,7 @@ $(document).ready(function() {
     // on otDayOmCayModal open
     $("#otDayOmCayModal").on("shown.bs.modal", function(e) {
         $("#otDayOmCayModalLabel").html('<a href="https://otdayomcay.com/" target="_blank">otDay omCay</a>');
+        $("#otDayOmCayModalBody").css("background-image", "url(./img/otdayomcaytransparent.png)");
         $("#otDayOmCayModalBody").html('<p>Wrote an English to Pig Latin translator in JavaScript with the following features:</p>'
             + '<ul><li>Recursive functions to trim leading and trailing punctuation</li><li>Custom capitalization and suffix schemes'
             + '</li><li>Regular expressions to account for edge cases</li><li>Mobile responsivity</li><li>IN DEV: File I/O</li><li>'
@@ -111,6 +119,7 @@ $(document).ready(function() {
     // on bewanderModal open
     $("#bewanderModal").on("shown.bs.modal", function(e) {
         $("#bewanderModalLabel").html('<a href="http://bewander.com/" target="_blank">Bewander</a>');
+        $("#bewanderModalBody").css("background-image", "url(./img/bewandertransparent.png)");
         $("#bewanderModalBody").html('<p>Implemented the following features for Bewander, an ASP.NET MVC project built using Visual '
             + 'Studio:</p><ul><li>An admin role with total CRUD functionality, the ability to download all user emails as a .csv file, '
             + 'and the ability to temporarily lock out users</li><li>Like and Unlike functions that use Ajax to update the number of '
