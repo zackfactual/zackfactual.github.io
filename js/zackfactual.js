@@ -23,9 +23,9 @@ $(document).ready(function() {
     // dynamically populate model title, body content, and background image
     $('#exampleModal').on('show.bs.modal', function (event) {
         var button = $(event.relatedTarget); // Button that triggered the modal
-        var modalTitle = button.data('whatever');
+        var modalTitle = button.data('modaltitle');
         var modalBodyContent = readModalBodyContent(modalTitle);
-        var modalBodyBackground = "url(./img/" + button.data('whoever') + ")";
+        var modalBodyBackground = "url(./img/" + button.data('modalbackground') + ")";
         var modal = $(this)
         modal.find('.modal-title').html(modalTitle);
         modal.find('.modal-body').html(modalBodyContent);
@@ -93,4 +93,3 @@ function readModalBodyContent(modalTitle) {
     }
     return modalBody;
 };
-
