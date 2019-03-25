@@ -44,6 +44,12 @@ function readModalBodyContent(modalTitle) {
             + 'I decided to give it a shot. I found it easier on the back—and better for the brain—than selling and making alcohol. Solving puzzles, learning '
             + 'constantly, creating unique applications and endlessly pursuing their perfection—this is the work I love.</p>';
     }
+    else if (modalTitle == "Solutions Engineer, Cludo") {
+        modalBody = '<ul><li>Created project demos for prospective clients in C# and ASP.NET MVC, HTML, and Less</li>'
+            + '<li>Served as first technical resource for Sales team and prospective clients alike</li>'
+            + '<li>Helped customers configure crawlers, engines, and tools, and interpret analytics to boost relevancy and improve content, getting the most out of their site search</li>'
+            + '<li>Worked with leadership across departments to build efficiency, accountability, and communication standards across company</li></ul>';
+    }
     else if (modalTitle == "Academy Director, The Tech Academy Seattle") {
         modalBody = '<p>Provided students support and instruction in:</p><ul><li>Computer and software development fundamentals</li><li>Version Control with '
             + 'GitHub and Team Foundation Server</li><li>Small Basic</li><li>HTML and CSS</li><li>SQL and Relational Database Management</li><li>JavaScript with '
@@ -83,6 +89,10 @@ function readModalBodyContent(modalTitle) {
             +' trailing punctuation</li><li>Custom capitalization and suffix schemes</li><li>Regular expressions to account for edge cases</li><li>Mobile '
             + 'responsivity</li><li>IN DEV: File I/O</li><li>IN DEV: speech-to-text API</li></ul> <p>Visit it here: <a href="https://otdayomcay.com/" '
             + 'target="_blank">https://otdayomcay.com/</a></p>';
+    }
+    else if (modalTitle == "Can You Drink Yet?") {
+        modalBody = "<p>A work in progress inspired by my time in the wine and spirits industry, Can You Drink Yet? will take end users' birthdays and time zones to create "
+            + "countdown clocks for their 21st birthdays. Can You Drink Yet will feature embeddable code for users' own websites and social media platforms</p>";
     }
     else {
         modalBody = '<p>Implemented the following features for Bewander, an ASP.NET MVC project built using Visual Studio:</p><ul><li>An admin role with total '
