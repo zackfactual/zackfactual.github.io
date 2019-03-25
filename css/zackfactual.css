@@ -32,7 +32,9 @@ h4 {
     border-radius: 10px;
     border: 5px solid #000;
     box-shadow: 0 0 75px #4582ec;
-    margin: 35px 0px 0px 0px;
+    margin-top: 10px;
+    max-width: 196px;
+    max-height: 196px;
 }
 
 #about img:hover{
@@ -41,6 +43,11 @@ h4 {
 
 .thought-bubble {
     font-style: italic;
+}
+
+.explanation {
+    color: #fff;
+    margin-top: 20px;
 }
 
 /* EXPERIENCES */
@@ -311,19 +318,20 @@ h4 {
 
 /* FOOTER */
 
-#copy{
+#copy {
     font-size: small;
 }
 
 /* MODALS */
 
-.experienceModal{
+.experienceModal {
     color: #000;
 }
 
 .experienceModal .modal-body{
     background-position: center;
     background-size: cover;
+    min-height: 400px;
 }
 
 /* MEDIA BREAKS */

@@ -48,6 +48,7 @@ function readModalBodyContent(modalTitle) {
         modalBody = '<ul><li>Created project demos for prospective clients in C# and ASP.NET MVC, HTML, and Less</li>'
             + '<li>Served as first technical resource for Sales team and prospective clients alike</li>'
             + '<li>Helped customers configure crawlers, engines, and tools, and interpret analytics to boost relevancy and improve content, getting the most out of their site search</li>'
+            + 'Collaborated with data science team to generate vertical-specific dummy data for the creation of more robust demos'
             + '<li>Worked with leadership across departments to build efficiency, accountability, and communication standards across company</li></ul>';
     }
     else if (modalTitle == "Academy Director, The Tech Academy Seattle") {
@@ -55,9 +56,12 @@ function readModalBodyContent(modalTitle) {
             + 'GitHub and Team Foundation Server</li><li>Small Basic</li><li>HTML and CSS</li><li>SQL and Relational Database Management</li><li>JavaScript with '
             + 'jQuery and Bootstrap</li><li>C# with Visual Studio and ASP.NET MVC</li><li>Project management with Agile and Scrum</li></ul>';
     }
-    else if (modalTitle == "Sales Associate, Wilridge Winery & Vineyard") {
-        modalBody = '<ul><li>Sold organic and biodynamic wines directly to consumers on premise and at seasonal and year-round markets across the Greater Seattle '
-            + 'Area</li><li>Worked 2017 harvest at biodynamic estate in Eastern Washington</li></ul>';
+    else if (modalTitle == "Bewander") {
+        modalBody = '<p>Implemented the following features for Bewander, an ASP.NET MVC project built using Visual Studio:</p><ul><li>An admin role with total '
+            + 'CRUD functionality, the ability to download all user emails as a .csv file, and the ability to temporarily lock out users</li><li>Like and Unlike '
+            + 'functions that use Ajax to update the number of total likes on public images without forcing a refresh</li><li>Standardized time stamp logic '
+            + "across three different chat box views</li><li>A function that dynamically displays the site's current best-liked images on the home page</li></ul>"
+            + '<p>Visit it here: <a href="https://bewander.com/" target="_blank">https://bewander.com/</a></p>';
     }
     else if (modalTitle == "Production Manager, Schilling Cider") {
         modalBody = '<ul><li>Performed all aspects of cidermaking process from fermentation to filtration to packaging</li><li>Conducted quality control tests on '
@@ -65,18 +69,12 @@ function readModalBodyContent(modalTitle) {
             + '<li>Wrote 70-pg. operations manual with pictures, diagrams, and step-by-step instructions detailing standard operating procedures for safe and '
             + 'efficient production of cider</li><li> Tended bar and led homebrewing classes at Schilling Cider House</li></ul>';
     }
-    else if (modalTitle == "Beverage Industry Consultant, Self-Employed") {
-        modalBody = '<ul><li>Advised eCommerce client on market analysis, promotional strategies, and inventory management integration</li><li>Managed shipping '
-            + "logistics, customer communications, inventory and financial records for client's investment in a négociant averaging €2.5M in annual production"
-            + ' </li><li>Participated in 2015 harvest of Premier and Grand Cru Burgundy wines</li><li>Conducted soil analysis, laid groundwork for client to '
-            + 'plant orchards and launch distillery</li></ul>'; 
-    }
     else if (modalTitle == "Wine & Spirits Buyer, Shawn Fine Wine & Spirits") {
         modalBody = '<ul><li>Provided consumers with descriptive recommendations and a comprehensive global selection of boutique and name brand products, '
             + 'distributing $100k monthly budget to serve the needs of an economically and culturally diverse clientele</li><li>Compiled and analyzed sales and '
             + 'inventory data to evaluate and improve practices of a small business surpassing $2M in annual sales</li><li>Broadened business outreach by '
             + 'implementing customer loyalty programs, integrating with eCommerce platforms, and running social media campaigns</li><li>Directed sales team '
-            + 'staffing and daily operations, including scheduling, hiring, and firing</li></ul>';        
+            + 'staffing and daily operations, including scheduling, hiring, and firing</li><li>Worked with eCommerce partner on market analysis, promotional strategies, and inventory management integration</li></ul>';        
     }
     else if (modalTitle == "Radish Point") {
         modalBody = '<p>Wrote a cross-numeral system converter with the following features:</p><ul><li>Number conversion from numeral systems base 1 through '
@@ -90,16 +88,9 @@ function readModalBodyContent(modalTitle) {
             + 'responsivity</li><li>IN DEV: File I/O</li><li>IN DEV: speech-to-text API</li></ul> <p>Visit it here: <a href="https://otdayomcay.com/" '
             + 'target="_blank">https://otdayomcay.com/</a></p>';
     }
-    else if (modalTitle == "Can You Drink Yet?") {
+    else {
         modalBody = "<p>A work in progress inspired by my time in the wine and spirits industry, Can You Drink Yet? will take end users' birthdays and time zones to create "
             + "countdown clocks for their 21st birthdays. Can You Drink Yet will feature embeddable code for users' own websites and social media platforms</p>";
-    }
-    else {
-        modalBody = '<p>Implemented the following features for Bewander, an ASP.NET MVC project built using Visual Studio:</p><ul><li>An admin role with total '
-            + 'CRUD functionality, the ability to download all user emails as a .csv file, and the ability to temporarily lock out users</li><li>Like and Unlike '
-            + 'functions that use Ajax to update the number of total likes on public images without forcing a refresh</li><li>Standardized time stamp logic '
-            + "across three different chat box views</li><li>A function that dynamically displays the site's current best-liked images on the home page</li></ul>"
-            + '<p>Visit it here: <a href="https://bewander.com/" target="_blank">https://bewander.com/</a></p>';
     }
     return modalBody;
 };
