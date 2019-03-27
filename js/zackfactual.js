@@ -73,7 +73,7 @@ function readModalBodyContent(modalTitle) {
             + "<li> Tended bar and led homebrewing classes at Schilling Cider House</li></ul>";
     }
     else if (modalTitle == "Wine & Spirits Buyer, Shawn Fine Wine & Spirits") {
-        modalBody = "<p>A Brooklyn, New York boutique wine shop, Shawn Fine Wine & Spirits has been a fixture of the Park Slope neighborhood since it opened its doors in 1970. As Wine & Spirits Buyer and Generam Manager of Shawn Fine Wine & Spirits, I:</p>"
+        modalBody = "<p>A Brooklyn, New York boutique wine shop, Shawn Fine Wine & Spirits has been a fixture of the Park Slope neighborhood since it opened its doors in 1970. As Wine & Spirits Buyer and General Manager of Shawn Fine Wine & Spirits, I:</p>"
             + '<ul><li>Provided consumers with descriptive recommendations and a comprehensive global selection of boutique and name brand products, distributing $100k monthly budget to serve the needs of an economically and culturally diverse clientele</li>'
             + '<li>Compiled and analyzed sales and inventory data to evaluate and improve practices of a small business surpassing $2M in annual sales</li>'
             + '<li>Broadened business outreach by implementing customer loyalty programs, integrating with eCommerce platforms, and running social media campaigns</li>'
