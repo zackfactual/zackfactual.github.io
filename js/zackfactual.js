@@ -36,10 +36,24 @@ $(document).ready(function() {
 // add text to modal body
 function readModalBodyContent(modalTitle) {
     if (modalTitle == "About Me") {
-        modalBody = '<p>My interest in software development began, like every good adventure, in a tavern. I was bartending at a cider house when a young woman walked in and asked for a recommendation. I gave her a bad one, which turned out to be a good thing since it got us talking. When I asked what she did for a living she replied, "I work in dev/ops for an eCommerce company."</p>'
-            + '<p><span class="thought-bubble">Her job description is gibberish,</span> I thought, <span class="thought-bubble">she must be a genius.</span></p>'
-            + '<p>I did the thing that no good bartender should do, and help up the line to ask, "Hey, you wanna grab coffee some time?"</p>'
-            + '<p>That woman is now my fiancée, and after a year of studying software development over her shoulder, I decided to give it a shot myself. I found it easier on the back—and more stimulating for the brain—than selling and making alcohol. Solving puzzles, learning constantly, creating unique applications and endlessly pursuing their perfection—this is the work that I love.</p>';
+        modalBody = "<p>Besides software development, my hobbies include:</p>"
+            + "<li>Hiking with my wife and our lab-husky mix</li>"
+            + "<li>Running</li>"
+            + "<li>Reading books</li>"
+            + "<li>Sustainably homebrewing kombucha and cider</li>"
+            + "<li>Tabletop gaming, mostly Dungeons &amp; Dragons</li></ul>";
+    }
+    else if (modalTitle == "IT Developer, Allianz Life") {
+        modalBody = "<p>As an IT Developer in the actuarial department of Allianz Life Insurance Company of North America, I:</p>"
+            + '<ul><li>In order to detect possible admin system defects in older products, updated console app and API of policy lifetime projection engine with support for two-tiered account values</li>'
+            + '<li>Wrote requirements, designs, tests, and code, improving UI/UX, reporting capacity, and product coverage of actuarial applications in .NET Core, SQL, and MongoDB</li>'
+            + '<li>Volunteered for ad hoc committee conducting breakout sessions and deriving actionable recommendations for improving employee engagement</li>'
+    }
+    else if (modalTitle == "IT Contractor, QSI") {
+        modalBody = "<p>In my contract-to-hire position at client Allianz Life, I:</p>"
+            + '<ul><li>Updated IRR calculation software with grouped I/O support, expanding product coverage</li>'
+            + '<li>Debugged, maintained, and updated web applications in .NET MVC, Vue, and Angular</li>'
+            + '<li>Added restart capability to multithreaded Windows Service, reducing runtime</li></ul>';        
     }
     else if (modalTitle == "Solutions Engineer, Cludo") {
         modalBody = "<p>A site search and content enablement platform based in Copenhagen, Denmark, Cludo provides its clients with powerful tools to boost site search relevancy, improve visitor conversion rates, and derive actionable insights from end user search and 404 behavior data. As the first Solutions Engineer at Cludo, I:</p>"
@@ -65,21 +79,6 @@ function readModalBodyContent(modalTitle) {
             + "<li>Made home page dynamically display site’s eight most-liked images instead of placeholders</li>"
             + '<p>Visit it here: <a href="https://bewander.com/" target="_blank">https://bewander.com/</a></p>';
     }
-    else if (modalTitle == "Production Manager, Schilling Cider") {
-        modalBody = "<p>The largest locally-owned craft cidery in Seattle, Washington, Schilling Cider produces over a dozen different kinds of cider from the finest Washington-grown apples. As Production Manager of Schilling Cider, I:</p>"
-            + '<ul><li>Performed all aspects of cidermaking process from fermentation to filtration to packaging</li>'
-            + "<li>Conducted quality control tests on up to eight 6,000-gal. batches simultaneously, monitoring scent, flavor, °Bx, pH, CO2, TA, and free SO2 of fermenting and finished product</li>"
-            + '<li>Wrote 70-pg. operations manual with pictures, diagrams, and step-by-step instructions detailing standard operating procedures for safe and efficient production of cider</li>'
-            + "<li> Tended bar and led homebrewing classes at Schilling Cider House</li></ul>";
-    }
-    else if (modalTitle == "Wine & Spirits Buyer, Shawn Fine Wine & Spirits") {
-        modalBody = "<p>A Brooklyn, New York boutique wine shop, Shawn Fine Wine & Spirits has been a fixture of the Park Slope neighborhood since it opened its doors in 1970. As Wine & Spirits Buyer and General Manager of Shawn Fine Wine & Spirits, I:</p>"
-            + '<ul><li>Provided consumers with descriptive recommendations and a comprehensive global selection of boutique and name brand products, distributing $100k monthly budget to serve the needs of an economically and culturally diverse clientele</li>'
-            + '<li>Compiled and analyzed sales and inventory data to evaluate and improve practices of a small business surpassing $2M in annual sales</li>'
-            + '<li>Broadened business outreach by implementing customer loyalty programs, integrating with eCommerce platforms, and running social media campaigns</li>'
-            + '<li>Directed sales team staffing and daily operations, including scheduling, hiring, and firing</li>'
-            + '<li>Worked with eCommerce partner on market analysis, promotional strategies, and inventory management integration</li></ul>';        
-    }
     else if (modalTitle == "Radish Point") {
         modalBody = '<p>Wrote a cross-numeral system converter with the following features:</p>'
             + '<ul><li>Number conversion from numeral systems base 1 through 100</li>'
@@ -99,13 +98,6 @@ function readModalBodyContent(modalTitle) {
             + '<li>IN DEV: File I/O</li>'
             + '<li>IN DEV: speech-to-text API</li></ul>'
             + '<p>Visit it here: <a href="https://otdayomcay.com/" target="_blank">https://otdayomcay.com/</a></p>';
-    }
-    else {
-        modalBody = "<p>A work in progress, Can You Drink Yet? is being built in JavaScript and will have the following features:</p>"
-            + "<ul><li>Accept user birth date input and detect browser time zone to dynamically generate 21st birthday countdown clock</li>"
-            + "<li>Generate embeddable code for users' own websites and social media platforms</li>"
-            + "<li>Mobile responsivity</li></ul>"
-            + '<p>Visit it here soon: https://canyoudrinkyet.com/</p>';
     }
     return modalBody;
 };
